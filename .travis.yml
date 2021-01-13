@@ -9,7 +9,7 @@ deploy:
     skip_cleanup: true
     access_key_id: $ACCESS_KEY_ID
     secret_access_key: $SECRET_ACCESS_KEY
-    bucket: "olegnortsov.com-staging"
+    bucket: olegnortsov.com-staging1
     region: eu-central+3
     acl: public_read
     on:
@@ -18,7 +18,7 @@ deploy:
     skip_cleanup: true
     access_key_id: $ACCESS_KEY_ID
     secret_access_key: $SECRET_ACCESS_KEY
-    bucket: "olegnortsov.com-production"
+    bucket: olegnortsov.com-production1
     region: eu-central+3
     acl: public_read
     on:
